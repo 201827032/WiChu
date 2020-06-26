@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="#fff">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/main_menu"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/main_all_bt"
+                    />
+
+                <ImageButton
+                    android:id="@+id/main_wichu"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:layout_marginRight="50dp"
+                    app:srcCompat="@drawable/main_wi_bt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:orientation="horizontal"
+                android:background="#b87f9d">
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/main_top"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/btn_bg"
+                    app:srcCompat="@drawable/main_top_bt" />
+
+                <ImageButton
+                    android:id="@+id/main_search"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/btn_bg"
+                    app:srcCompat="@drawable/main_search_bt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/main_rec"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/btn_bg"
+                    app:srcCompat="@drawable/main_rec_bt" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
